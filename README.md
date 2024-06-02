@@ -9,4 +9,5 @@ python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 python better-than-life.py
+python http-server.py
 ```
