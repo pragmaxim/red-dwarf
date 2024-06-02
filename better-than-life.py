@@ -33,4 +33,5 @@ def get_sentences_with_word(word):
             sentences_with_word.append(sentence.replace('\n', ''))
     return sentences_with_word
 
+
 print("věty s obsahem slova David:\n", '\n'.join(get_sentences_with_word("David")))
